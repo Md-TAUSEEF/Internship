@@ -1,0 +1,72 @@
+.mid_top{
+    display: flex;
+}
+
+.graph{
+    width: 350px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.graph svg{
+    width: 350px;
+    height: 100%;
+}
+
+.g_title{
+    padding: 20px;
+    line-height: 20px;
+}
+
+.g_title p{
+    color: rgb(169, 167, 167);
+}
+
+.mid {
+    margin: 20px 20px 20px 40px;
+    padding: 30px 20px 20px 20px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    width: 800px;
+}
+.mid__head{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.mid__headright{
+    display: flex;
+    align-items: center;
+}
+
+.mid__headleft p{
+    color: rgb(169, 167, 167);
+}
+
+.mid__headright{
+    color: #b6b6b7;
+    background-color:#FAFBFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.chart {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .mid_top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mid {
+        margin: 24px 18px 19px 0px;
+        max-width: 257px;
+    }
+}
